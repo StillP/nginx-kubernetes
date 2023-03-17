@@ -4,4 +4,8 @@ images:
   - name: nginx
     newName: bharamicrosystems/nginx
     newTag: v1
+resource:
+  - nginx.yaml
+  - nginx-service.yaml
+  - namespace.yaml
   
