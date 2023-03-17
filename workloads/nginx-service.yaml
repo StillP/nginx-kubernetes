@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: nginx-service
+  namespace: web-flux
 spec:
   selector:
     app: nginx
