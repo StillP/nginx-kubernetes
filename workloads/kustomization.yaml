@@ -4,7 +4,7 @@ kind: Kustomization
 namespace: web-flux
 images:
   - name: bharamicrosystems/nginx
-    newTag: v1
+    newTag: v2
 resource:
   - nginx.yaml
   - nginx-service.yaml
